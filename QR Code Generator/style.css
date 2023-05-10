@@ -1,0 +1,44 @@
+body{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+input{
+    padding: 8px 14px;
+    border-radius: 4px;
+    outline: none;
+    border: 2px solid #E8CCFF;
+    display: block;
+    font-size: 16px;
+    margin: 5px;
+}
+
+.container{
+    text-align: center;
+}
+
+.img{
+    margin: 10px;
+    height: 150px;
+}
+
+button{
+    background: #971aff;
+    padding: 10px 15px;
+    border: 1px solid #971AFF;
+    border-radius: 5px;
+    color: white;
+    display: block;
+    margin: 15px auto;
+    cursor: pointer;
+}
+
+button:hover{
+    opacity: 0.8;
+}
+
+
+
+/* Abbas Shaikh */
+
