@@ -1,0 +1,59 @@
+body {
+  background: #73f585;
+  font-family: sans-serif;
+  display: grid;
+  height: 100%;
+}
+
+.wrapper {
+  width: 400px;
+  margin: 30px auto;
+  color: #6a15cc;
+  text-align: center;
+}
+
+h2,
+h3 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 2.6em;
+}
+
+#seconds,
+#tens {
+  font-size: 2em;
+}
+
+button {
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  -khtml-border-radius: 5px;
+  background: #50ecc5;
+  color: #25282a;
+  border: solid 1px #292525;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 1.2em;
+  padding: 18px 10px;
+  width: 180px;
+  margin: 10px;
+  outline: none;
+}
+
+button:hover {
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  background: #25282a;
+  border: solid 1px #a7dbf1;
+  color: #a7dbf1;
+}
+
+
+
+
+
+
+
+/* Abbas Shaikh  */
