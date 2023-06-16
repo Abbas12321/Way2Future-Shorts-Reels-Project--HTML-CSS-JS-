@@ -1,0 +1,54 @@
+body{
+    margin:0;
+    display:grid;
+    place-content:center;
+    height: 100vh;
+    background: #111;
+    
+  }
+  div{
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
+    border: 2px solid white;
+    background: 
+    radial-gradient(18% 28% at 24% 50%,#cefAFFFF 7%,#073AFF00 100%),
+    radial-gradient(18% 28% at 18% 71%,#fffFFF59 6%,#073AFF00 100%),
+    radial-gradient(70% 53% at 36% 76%,#73f2FFFF 0,#073AFF00 100%),
+    radial-gradient(42% 53% at 15% 94%,#fffFFFFF 7%,#073AFF00 100%),
+    radial-gradient(42% 53% at 34% 72%,#fffFFFFF 7%,#073AFF00 100%),
+    radial-gradient(18% 28% at 35% 87%,#fffFFFFF 7%,#073AFF00 100%),
+    radial-gradient(31% 43% at 7% 98%,#fffFFFFF 24%,#073AFF00 100%),
+    radial-gradient(21% 37% at 72% 23%,#d3fF6D9C 24%,#073AFF00 100%),
+    radial-gradient(35% 56% at 91% 74%,#8a4FFFF5 9%,#073AFF00 100%),
+    radial-gradient(74% 86% at 67% 38%,#6dfFAEF5 24%,#073AFF00 100%),
+    linear-gradient(125deg,#4eb5FFFF 1%,#4c00FCFF 100%);
+    animation: rotate 10s infinite linear; 
+    box-shadow: 0 0px 20px 20px rgba(255,255,255,0.6) inset, 0 0 20px
+    2px black;
+    
+  }
+  
+  div.shadow{
+    width: 11rem;
+    height: 11rem;
+    position:absolute;
+    left:50%;
+    top:50%;
+    translate:-50% -50%;
+    z-index:-1;
+    border:none;
+    opacity: 0.7;
+    filter: blur(30px);
+  }
+  
+  @keyframes rotate{
+    to{
+      transform:rotatez(360deg);
+    }
+  }
+
+
+
+
+  /* Abbas Shaikh */
