@@ -1,0 +1,78 @@
+html,
+body {
+  min-height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background: #0d2b45;
+  position: relative;
+  display: flex;
+}
+
+.frame {
+  width: 350px;
+  height: 350px;
+  background: rgb(255,212,163);
+  background: radial-gradient(circle, rgba(255,212,163,1) 0%, 
+  rgba(255,170,94,1) 20%, rgba(208,129,89,1) 50%, 
+  rgba(32,60,86,1) 100%);
+  margin: auto;
+  color: #E94560;
+  border: 7px solid #8d697a;
+  border-radius: 100%;
+  position: relative;
+  overflow: hidden;
+  z-index: 0;
+}
+
+.hill-1 {
+  position: absolute;
+  width: 1000px;
+  top: 180px;
+  left: -500px;
+  transform: rotate(20deg);
+  height: 350px;
+  background: #203c56;
+  border-radius: 100%;
+  z-index: 10;
+}
+
+.hill-2 {
+  position: absolute;
+  width: 700px;
+  top: 180px;
+  left: 50px;
+  height: 350px;
+  background: #544e68;
+  border-radius: 100%;
+  z-index: 9;
+}
+
+.hill-3 {
+  position: absolute;
+  width: 350px;
+  top: 40%;
+  left: 0;
+  height: 350px;
+  transform: rotate(45deg);
+  background: #d08159;
+  border-radius: 12px;
+  z-index: 8;
+}
+
+.sun {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  top: 22%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #ffecd6;
+  border-radius: 100%;
+  box-shadow: 0 0 50px 50px #ffd4a3;
+  z-index: 7;
+}
+
+
+
+/* Abbas Shaikh */
