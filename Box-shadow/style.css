@@ -1,0 +1,22 @@
+.container {
+  float: left;
+  width: 580px;
+  height: 280px;
+  border: 1px solid #212775; 
+  background-color: rgb(232, 238, 238);
+}
+
+.box {
+  float: left;
+  border-radius: 15px;
+  border: 2px solid #d39e9e; 
+  background-color: #eb3a9b; 
+  padding: 50px; 
+  margin: 50px; 
+  transition: all .3s;
+  box-shadow: 12px 12px 2px 1px #d39e9e;
+}
+
+.box:hover{
+  box-shadow: -12px 12px 2px -1px #d39e9e;
+}
