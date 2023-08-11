@@ -1,0 +1,26 @@
+.container {
+  float: left;
+  width: 580px;
+  height: 280px;
+  border: 1px solid #212775; 
+  background-color: rgb(232, 238, 238);
+  perspective: 1000px;
+}
+
+.box {
+  float: left;
+  border-radius: 15px;
+  border: 2px solid #f1aedb; 
+  background-color: #eb3a9b; 
+  padding: 50px; 
+  margin: 50px; 
+  box-shadow: 12px 12px 2px 1px #f7b0d3;
+  transition: all 0.3s;
+  position: relative;
+  transform-style: preserve-3d;
+}
+
+.box:hover{
+  box-shadow: -12px 12px 2px -1px #f7b0d3;
+  transform: translateZ(50px);
+}
