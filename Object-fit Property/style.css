@@ -1,0 +1,27 @@
+.container {
+  float: left;
+  width: 580px;
+  height: 280px;
+  border: 1px solid #212775; 
+  background-color: rgb(246, 248, 248);
+}
+
+.box {
+  float: left;
+  width: 16rem;
+  height: 16rem;
+  padding: 30px;
+  overflow: hidden;
+}
+
+.box img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease-in-out;
+  border: 1px solid #212775;
+}
+
+.box:hover img{
+  transform: scale(1.2);
+}
