@@ -1,0 +1,19 @@
+.container {
+  float: left;
+  width: 580px;
+  height: 280px;
+  border: 1px solid #212775; 
+  background-color: rgb(246, 248, 248);
+}
+
+.box {
+  float: left;
+  border-radius: 5px;
+  margin: 50px; 
+  filter: grayscale(200%);
+  transition: filter 300ms;
+}
+
+.box:is(:hover, :focus){
+  filter: grayscale(0%);
+}
