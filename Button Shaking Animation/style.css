@@ -1,0 +1,21 @@
+.container {
+  float: left;
+  width: 580px;
+  height: 380px;
+  border: 1px solid #212775; 
+  background-color: rgb(246, 248, 248);
+}
+
+.box {
+  padding: 30px;
+}
+
+button:hover{
+  animation: shake 200ms 2;
+}
+
+@keyframes shake {
+  0%, 100% { translate: 0}
+  25% { translate: 0.125rem; }
+  75% { translate: -0.125rem; }
+}
