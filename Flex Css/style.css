@@ -1,0 +1,22 @@
+.container {
+  overflow: auto;
+  float: left;
+  width: 380px;
+  height: 250px;
+  border: 1px solid #830e0e;
+  background-color: rgb(182, 230, 230);
+  resize: both;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+}
+
+.box{
+  margin: 5px;
+  height: 70px;
+  padding: 25px;
+  width: 70px;
+  border-radius: 5px;
+  background-color: crimson;
+  font-size: 30px;
+}
