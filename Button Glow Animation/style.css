@@ -1,0 +1,33 @@
+.container {
+  float: left;
+  width: 580px;
+  height: 380px;
+  border: 1px solid #212775; 
+  background-color: rgb(246, 248, 248);
+}
+
+.box {
+  padding: 30px;
+}
+
+.button{
+  border-radius: 10px;
+  height: 50px;
+  padding: 10px;
+  margin: 10px;
+  border: none;
+  background-color: #ec80da;
+}
+/*  
+.button:hover{
+  animation: glow 0.3s infinite;
+}  */
+/* 
+@keyframes glow {
+  0%,100%{
+    box-shadow: 0 0 40px #151957
+  }
+  50%{
+    box-shadow: 0 0 40px #246927
+  }
+} */
