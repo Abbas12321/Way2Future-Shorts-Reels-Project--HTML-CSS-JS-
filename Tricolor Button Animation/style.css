@@ -1,0 +1,29 @@
+.container {
+  float: left;
+  width: 580px;
+  height: 380px;
+  border: 1px solid #212775; 
+  background-color: rgb(156, 211, 211);
+  margin: 20px;
+  padding: 70px;
+  
+}
+
+.button{
+  padding: 10px 30px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  animation: anima 0.6s linear infinite;
+}
+
+.button:hover{
+  animation: none;
+  background: linear-gradient(135deg, orange, white, green);
+}
+
+@keyframes anima {
+  100% {
+    background: linear-gradient(135deg, orange, white, green);
+  }
+}
