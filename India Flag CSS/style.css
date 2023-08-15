@@ -1,0 +1,34 @@
+.container {
+  float: left;
+  width: 580px;
+  height: 380px;
+  border: 1px solid #212775; 
+  background-color: rgb(246, 248, 248);
+  margin: 20px;
+  padding: 20px;
+}
+
+/* .top{
+  background-color: orange;
+  height: 50px;
+  width: 320px;
+} */
+
+/* .middle{
+  display: grid;
+  justify-content: center;
+  width: 320px;
+  animation: spin 1s infinite;
+} */
+
+/* .bottom{
+  background-color: green;
+  height: 50px;
+  width: 320px;
+} */
+
+/* @keyframes spin {
+  100%{
+    transform: rotate(360deg);
+  }
+} */
