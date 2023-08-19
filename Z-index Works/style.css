@@ -1,0 +1,104 @@
+.container {
+  float: left;
+  width: 380px;
+  height: 230px;
+  border: 1px solid #212775; 
+  background-color: rgb(241, 245, 245);
+  margin: 10px;
+  padding: 10px;
+  position: relative;
+}
+
+.box {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  font-size: 24px;
+  border: 2px solid black;
+}
+
+.box1 {
+  background-color: rgb(243, 62, 62);
+  top: 0px;
+  left: 0px;
+  z-index: 3;
+}
+
+.box2 {
+  background-color: rgb(25, 156, 25);
+  top: 40px;
+  left: 40px;
+  z-index: 2;
+}
+
+.box3 {
+  background-color: rgb(71, 71, 241);
+  top: 80px;
+  left: 80px;
+  z-index: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+.box1 {
+  overflow: hidden;
+  border: 2px solid #171c57;
+  height: 45px;
+  width: 45px;
+  background-color: rgb(245, 104, 163);
+  margin: 5px;
+}
+
+.box2 {
+  position: relative;
+  border: 2px solid #171c57;
+  height: 45px;
+  width: 45px;
+  background-color: rgb(245, 104, 163);
+  margin: 5px;
+}
+
+.box3 {
+  border: 2px solid #171c57;
+  height: 45px;
+  width: 45px;
+  background-color: rgb(245, 104, 163);
+  margin: 5px;
+}
+
+.box4 {
+  border: 2px solid #171c57;
+  height: 45px;
+  width: 45px;
+  background-color: rgb(245, 104, 163);
+  margin: 5px;
+} */
