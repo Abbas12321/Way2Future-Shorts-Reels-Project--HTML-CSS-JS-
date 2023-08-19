@@ -1,0 +1,84 @@
+.parent {
+  text-align: center;
+  float: left;
+  width: 380px;
+  height: 230px;
+  border: 1px solid #212775; 
+  background-color: rgb(241, 245, 245);
+  margin: 10px;
+  padding: 10px;
+}
+
+.text {
+  font-size: 60px;
+  color: #4e4beb; 
+}
+
+.text:hover{
+  text-shadow: red -3px 0,
+  green 3px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+.box1 {
+  overflow: hidden;
+  border: 2px solid #171c57;
+  height: 45px;
+  width: 45px;
+  background-color: rgb(245, 104, 163);
+  margin: 5px;
+}
+
+.box2 {
+  position: relative;
+  border: 2px solid #171c57;
+  height: 45px;
+  width: 45px;
+  background-color: rgb(245, 104, 163);
+  margin: 5px;
+}
+
+.box3 {
+  border: 2px solid #171c57;
+  height: 45px;
+  width: 45px;
+  background-color: rgb(245, 104, 163);
+  margin: 5px;
+}
+
+.box4 {
+  border: 2px solid #171c57;
+  height: 45px;
+  width: 45px;
+  background-color: rgb(245, 104, 163);
+  margin: 5px;
+} */
