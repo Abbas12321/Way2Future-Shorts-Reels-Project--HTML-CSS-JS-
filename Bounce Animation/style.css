@@ -1,0 +1,27 @@
+.container {
+  float: left;
+  width: 380px;
+  height: 230px;
+  border: 1px solid #212775; 
+  background-color: rgb(241, 245, 245);
+  margin: 10px;
+  padding: 70px;
+}
+
+.ball {
+  width: 50px;
+  height: 50px;
+  background-color: #2d7e1d;
+  border-radius: 50%;
+  animation: bounce 1s infinite;
+}
+
+@keyframes bounce {
+  0%,100%{
+    transform: translateY(0);
+  }
+  50%{
+    transform: translateY(-60px);
+  }
+  
+}
