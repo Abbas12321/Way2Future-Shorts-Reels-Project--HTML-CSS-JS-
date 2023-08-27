@@ -1,0 +1,30 @@
+.container {
+  display: flex;
+  width: 380px;
+  height: 230px;
+  border: 1px solid #212775; 
+  background-color: rgb(255, 255, 255);
+  margin: 10px;
+  padding: 10px;
+}
+
+.spinner {
+  padding: 45px;
+  margin: 40px;
+  width: 56px;
+  height: 56px;
+  border-radius: 5px;
+  background: #5623e2;
+  animation: rotate 1.2s infinite;
+}
+
+@keyframes rotate {
+  50% {
+    transform: perspective(120px) 
+    rotateX(180deg);
+  }
+  100% {
+    transform: perspective(120px) 
+    rotateX(180deg) rotateY(180deg);
+  }
+}
