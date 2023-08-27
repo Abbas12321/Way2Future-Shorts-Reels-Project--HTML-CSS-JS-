@@ -16,11 +16,11 @@
   background-color: #279eee;
   color: white;
   border-radius: 10px;
-  /* transition: transform 0.3s, 
-  background-color 0.3s; */
+  transition: transform 0.3s, 
+  background-color 0.3s;
 }
 
-/* .hover-text:hover {
+.hover-text:hover {
   transform: scale(1.2);
   background-color: #e02814;
-} */
+}
