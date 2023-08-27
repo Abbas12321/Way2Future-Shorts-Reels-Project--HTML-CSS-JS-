@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  width: 380px;
+  height: 230px;
+  border: 1px solid #212775; 
+  background-color: rgb(255, 255, 255);
+  margin: 10px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.hover-word {
+  color: #212775;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.hover-word span:hover {
+  font-size: 30px;
+  transition: font-size 0.2s;
+  color: red;
+}
