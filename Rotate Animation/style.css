@@ -1,0 +1,35 @@
+.container {
+  display: flex;
+  width: 380px;
+  height: 230px;
+  border: 1px solid #212775; 
+  background-color: rgb(255, 255, 255);
+  margin: 10px;
+  padding: 10px;
+}
+
+.rectangle {
+  margin: 20px;
+  width: 100px;
+  height: 100px;
+  border-radius: 20px;
+  background-color: blue;
+  position: relative;
+  animation: rotateAndColorAnimation 2s 
+  infinite linear;
+}
+
+@keyframes rotateAndColorAnimation {
+  0% {
+    transform: rotate(0deg);
+    background-color: blue;
+  }
+  50% {
+    transform: rotate(180deg);
+    background-color: pink;
+  }
+  100% {
+    transform: rotate(360deg);
+    background-color: orange;
+  }
+}
