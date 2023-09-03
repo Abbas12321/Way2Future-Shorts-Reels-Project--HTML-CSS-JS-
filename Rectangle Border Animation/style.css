@@ -1,0 +1,37 @@
+.container {
+  display: flex;
+  width: 380px;
+  height: 230px;
+  border: 1px solid #212775; 
+  background-color: rgb(255, 255, 255);
+  margin: 10px;
+  padding: 50px;
+}
+
+.rectangle {
+  width: 200px;
+  height: 100px;
+  border: 5px solid transparent;
+  background-color: greenyellow;
+  margin: 20px;
+  border-radius: 10px;
+  /* animation: anima 3s infinite alternate; */
+}
+
+/* @keyframes anima {
+  0% {
+    border-color: #0698fa;
+  }
+  25% {
+    border-color: #fc260e;
+  }
+  50% {
+    border-color: #fa35c9;
+  }
+  75% {
+      border-color: #05f105;
+  }
+  100% {
+    border-color: aqua;
+  }
+} */
