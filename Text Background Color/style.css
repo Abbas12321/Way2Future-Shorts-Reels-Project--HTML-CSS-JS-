@@ -1,0 +1,20 @@
+.container {
+  display: flex;
+  width: 380px;
+  height: 230px;
+  border: 1px solid #212775; 
+  background-color: rgb(255, 255, 255);
+  margin: 10px;
+  padding: 10px;
+}
+
+.text h1 {
+    font-size: 56px;
+    background: linear-gradient(45deg, 
+    #3498db, #f33d29, 
+    #c154ec, #fac802);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
