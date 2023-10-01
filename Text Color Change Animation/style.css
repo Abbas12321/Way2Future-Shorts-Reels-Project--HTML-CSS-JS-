@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  width: 380px;
+  height: 230px;
+  border: 1px solid #212775; 
+  background-color: rgb(255, 255, 255);
+  margin: 10px;
+  padding: 10px;
+}
+
+.text {
+  text-align: center;
+  animation: Color 3s infinite alternate;
+}
+
+@keyframes Color {
+  0% {
+      color: #2098e7;
+  }
+  25% {
+      color: #f74a37;
+  }
+  50% {
+      color: #1be937;
+  }
+  75% {
+      color: #f30bb9;
+  }
+  100% {
+      color: #ccee09;
+  }
+}
