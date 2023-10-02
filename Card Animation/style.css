@@ -1,0 +1,41 @@
+.container {
+  display: flex;
+  width: 380px;
+  height: 230px;
+  border: 1px solid #212775; 
+  background-color: rgb(255, 255, 255);
+  margin: 10px;
+  padding: 10px;
+}
+
+.card {
+  width: 300px;
+  height: 200px;
+  background-color: #3498db;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  position: relative;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.card-content {
+  padding: 20px;
+  color: #fff;
+}
+
+h2 {
+  font-size: 24px;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.card:hover {
+  transform: scale(1.07);
+}
