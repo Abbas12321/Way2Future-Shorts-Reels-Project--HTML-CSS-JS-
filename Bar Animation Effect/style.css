@@ -1,0 +1,50 @@
+.container {
+  display: flex;
+  width: 380px;
+  height: 230px;
+  border: 1px solid #212775; 
+  background-color: rgb(255, 255, 255);
+  margin: 10px;
+  padding: 20px;
+}
+
+.bar-loader {
+  display: flex;
+}
+
+.bar {
+  width: 15px;
+  height: 60px;
+  background-color: #3498db;
+  margin: 2px;
+  border-radius: 6px;
+  animation: rotateBars 1s infinite;
+}
+
+.bar:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.bar:nth-child(3) {
+  animation-delay: 0.4s;
+}
+
+.bar:nth-child(4) {
+  animation-delay: 0.6s;
+}
+
+.bar:nth-child(5) {
+  animation-delay: 0.8s;
+}
+
+@keyframes rotateBars {
+  0% {
+      transform: scaleY(1);
+  }
+  50% {
+      transform: scaleY(0.3);
+  }
+  100% {
+      transform: scaleY(1);
+  }
+}
