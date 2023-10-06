@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  width: 380px;
+  height: 230px;
+  border: 1px solid #212775; 
+  background-color: rgb(255, 255, 255);
+  margin: 10px;
+  padding: 60px;
+}
+
+.loading{
+  width: 80px;
+  height: 80px;
+  border-top: 10px solid  #ee0707;
+  border-left: 8px solid   #4086f7;
+  border-bottom: 6px solid   #46d346;
+  border-right: 6px solid  #fa3eb2;
+  border-radius: 100%; 
+  animation: anim 1.6s infinite;
+}
+
+
+@keyframes anim{
+    50%{
+      /* transform: rotate(360deg); */
+      -webkit-transform: rotate(760deg);
+    }
+    
+    100%{
+      /* transform: rotate(720deg); */
+      -webkit-transform: rotate(720deg);
+    }
+}
