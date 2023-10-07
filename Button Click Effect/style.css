@@ -8,19 +8,6 @@
   padding: 60px;
 }
 
-.color-skew-button {
-  position: relative;
-  display: inline-block;
-  padding: 10px 20px;
-  background-color: #3498db;
-  color: #fff;
-  font-size: 16px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  overflow: hidden;
-}
-
 .click {
   display: inline-block;
   padding: 10px 20px;
@@ -30,15 +17,15 @@
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  /* transition: transform 0.3s, 
-              background-color 0.3s; */
-}
+  transition: transform 0.3s, 
+              background-color 0.3s;
+} 
 
-/* .click:hover {
+.click:hover {
   background-color: #ee3c28;
   transform: scale(1.1);
-} */
+}
 
-/* .click:active {
+.click:active {
   transform: scale(0.9); 
-} */
+}
