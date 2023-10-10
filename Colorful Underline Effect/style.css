@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  width: 380px;
+  height: 230px;
+  border: 1px solid #212775; 
+  background-color: rgb(145, 243, 247);
+  margin: 10px;
+  padding: 20px;
+}
+
+.text {
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  color: #333;
+  cursor: pointer;
+}
+
+.text::after {
+    content: '';
+    display: block;
+    margin: auto;
+    width: 0;
+    height: 2px;
+    background-image: linear-gradient(90deg,
+     #FFD700, #FF5733, #FFD700);
+    transition: 0.3s;
+}
+
+.text:hover::after {
+  width: 100%;
+}
