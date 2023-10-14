@@ -1,0 +1,34 @@
+.container {
+  display: flex;
+  width: 380px;
+  height: 230px;
+  border: 1px solid #212775; 
+  background-color: rgb(253, 255, 255);
+  margin: 10px;
+  padding: 20px;
+}
+
+.shining-box {
+  text-align: center;
+  width: 150px;
+  height: 180px;
+  background-color: #ffffff;
+  border: 2px solid #3498db;
+  border-radius: 10px;
+  animation: shining 2s infinite; 
+}
+
+@keyframes shining {
+  0% {
+      border-color: #3498db;
+      box-shadow: 0 0 10px #3498db;
+  }
+  50% {
+      border-color: #ff5733; 
+      box-shadow: 0 0 20px #ff5733; 
+  }
+  100% {
+      border-color: #3498db;
+      box-shadow: 0 0 10px #3498db;
+  }
+}
