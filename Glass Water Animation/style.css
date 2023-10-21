@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  width: 380px;
+  height: 230px;
+  border: 1px solid #212775; 
+  background-color: rgb(253, 135, 228);
+  margin: 10px;
+  padding: 50px;
+}
+
+.loader {
+  width: 50px;
+  height: 122px;
+  border: 2px solid #fff;
+  animation: fill 2s infinite alternate;
+  color: #20d0fc;
+  transform: perspective(120px) 
+             rotateX(-45deg);
+}
+
+@keyframes fill {
+  0% {
+      box-shadow: 0 0 inset;
+  }
+
+  100% {
+      box-shadow: 0 -110px inset;
+  }
+}
