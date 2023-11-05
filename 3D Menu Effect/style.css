@@ -1,0 +1,45 @@
+.container {
+  display: flex;
+  width: 380px;
+  height: 230px;
+  border: 1px solid #212775; 
+  background-color: rgb(255, 255, 255);
+  margin: 10px;
+  padding: 30px;
+}
+
+.menu-container {
+  perspective: 1000px;
+}
+
+.menu {
+  transform-style: preserve-3d;
+}
+
+.menu-item {
+  display: inline-block;
+  margin: 4px;
+  transform: rotateY(0deg) scale(1);
+  transition: transform 0.3s;
+}
+
+.menu-item a {
+  padding: 7px;
+  background-color: #3498db;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  display: block;
+  width: 150px;
+  text-align: center;
+  transform: translateZ(0);
+}
+
+.menu-item a:hover {
+  background-color: #e74c3c;
+  transform: translateZ(10px);
+}
+
+.menu-item:hover {
+  transform: rotateY(20deg) scale(1.1);
+}
