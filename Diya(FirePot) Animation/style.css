@@ -1,0 +1,48 @@
+.container {
+  display: flex;
+  width: 380px;
+  height: 130px;
+  border: 1px solid #212775; 
+  background-color: rgb(255, 255, 255);
+  margin: 10px;
+  padding: 90px;
+}
+
+h2{
+  margin: 15px;
+}
+
+.firepot {
+  width: 40px;
+  height: 20px;
+  background-color: #954240;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  transform: scale(4);
+}
+
+.light-pot {
+	width: 5px;
+	height: 10px;
+	background-color: yellow;
+	position: absolute;
+	top: -12px;
+	left: 14px;
+	border-bottom-left-radius: 50px;
+	border-top-right-radius: 50px;
+	border: 1px solid red;
+  animation: fire 5s infinite;
+	transform-origin: bottom right;
+}
+
+@keyframes fire {
+	0% {
+		transform: rotate(-10deg);
+	}
+	50% {
+		transform: rotate(50deg);
+	}
+	100% {
+		transform: rotate(-10deg);
+	}
+}
