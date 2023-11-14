@@ -1,0 +1,48 @@
+.container {
+  display: flex;
+  width: 380px;
+  height: 230px;
+  border: 1px solid #212775; 
+  background-color: rgb(255, 255, 255);
+  margin: 10px;
+  padding: 70px;
+}
+
+.formLoader {
+	height: 100%;
+	width: 100%;
+  }
+  
+.formLoader .formLoading li {
+  display: block;
+  float: left;
+  width: 36px;
+  height: 36px;
+  border: 1px solid #ed7c00;
+  margin: 0 0 0 6px;
+  animation: preload 1s infinite;
+  border-radius: 50%;
+}
+  
+.formLoader .formLoading li:nth-child(2) {
+  animation-delay: .15s
+}
+  
+.formLoader .formLoading li:nth-child(3) {
+  animation-delay: .3s
+}
+
+@keyframes preload {
+  0% {
+	background: #cf7f2a;
+	opacity: 1
+  }
+  50% {
+	background: #ffffff;
+	opacity: 0.5
+  }
+  100% {
+	background: #cf7f2a;
+	opacity: 1
+  }
+}
