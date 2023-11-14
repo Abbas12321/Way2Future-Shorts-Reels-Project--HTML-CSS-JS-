@@ -1,0 +1,36 @@
+.container {
+  display: flex;
+  width: 380px;
+  height: 230px;
+  border: 1px solid #212775; 
+  background-color: rgb(255, 255, 255);
+  margin: 10px;
+  padding: 20px;
+}
+
+.image-container {
+  position: relative;
+}
+
+.image-container:hover img {
+  opacity: 0.7;
+}
+
+.image-text {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  font-size: 16px; 
+  font-weight: bold; 
+  background-color: rgba(0, 0, 0, 0.7); 
+  padding: 4px; 
+  border-radius: 5px; 
+  transition: opacity 0.3s;
+}
+
+.image-container:hover .image-text {
+  opacity: 1;
+  color: red;
+}
