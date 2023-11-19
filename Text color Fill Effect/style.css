@@ -1,0 +1,39 @@
+.container {
+	display: flex;
+	width: 380px;
+	height: 230px;
+	border: 1px solid #212775; 
+	background-color: rgb(255, 255, 255);
+	margin: 10px;
+	padding: 20px;
+  }
+
+  h2 {
+    color: #f5bf9b;
+    font-size: 80px;
+    position: relative;
+    text-transform: uppercase;
+    -webkit-text-stroke: 0.3px #f7f7fe;
+  }
+  
+  h2:before {
+    height: 100%;
+    color: #ec3838;
+    overflow: hidden;
+    position: absolute;
+    content: attr(data-text);
+    border-right: 2px solid #f59b9b;
+    -webkit-text-stroke: 0px #f7f7fe;
+    animation: animate 6s linear infinite;
+  }
+  
+  @keyframes animate {
+    0%, 10%, 100% {
+      width: 0;
+    }
+    70%, 90% {
+      width: 100%;
+    }
+  }
+  
+  
