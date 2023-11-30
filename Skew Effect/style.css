@@ -1,0 +1,36 @@
+  .container{
+	display: flex;
+	height: 200px;
+	width: 420px;
+	margin: 5px;
+	padding: 20px;
+	background: linear-gradient(135deg, 
+	           #e6cfb6 0%, 
+			   #e4aee6 100%);
+  }
+
+  .skew {
+	background: #055283;  
+	width: 200px;
+	height: 60px;
+	text-align: center;
+	transition: 0.3s;
+	transform: skew(-20deg);
+  }
+  
+  .skew span {
+	color: #fff;
+	display: block;
+	padding: 17px;
+	transition: 0.3s;
+	transform: skew(20deg);
+  }
+  
+  .skew:hover {
+	transform: skew(20deg);
+  }
+  
+  .skew:hover span {
+	transform: skew(-20deg);
+  }
+  
