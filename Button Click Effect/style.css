@@ -1,31 +1,53 @@
-.container {
-  display: flex;
-  width: 380px;
-  height: 230px;
-  border: 1px solid #212775; 
-  background-color: rgb(255, 255, 255);
-  margin: 10px;
-  padding: 60px;
-}
+  .container{
+	/* display: flex; */
+	height: 200px;
+	width: 320px;
+	height: 210px;
+	margin: 10px;
+	padding: 10px;
+	background: linear-gradient(
+             135deg, 
+	           #e6cfb6 0%, 
+			       #e4aee6 100%);
+  }
 
-.click {
-  display: inline-block;
-  padding: 10px 20px;
-  background-color: #3498db;
-  color: #fff;
-  font-size: 16px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: transform 0.3s, 
-              background-color 0.3s;
-} 
-
-.click:hover {
-  background-color: #ee3c28;
-  transform: scale(1.1);
-}
-
-.click:active {
-  transform: scale(0.9); 
-}
+  .action-button{
+    transition: all 0.1s;
+    padding: 8px 20px;
+    margin: 8px;
+    float: left;
+    border-radius: 3px;
+    font-family: sans-serif;
+    font-size: 16px;
+    color: #FFF;
+    text-decoration: none;	
+  }
+  
+  .blue{
+    background-color: #3498db;
+    border-bottom: 5px solid #2980B9;
+    text-shadow: 0px -2px #2980B9;
+  }
+  
+  .red{
+    background-color: #e74c3c;
+    border-bottom: 5px solid #c0392b;
+    text-shadow: 0px -2px #c0392b;
+  }
+  
+  .green{
+    background-color: #2ecc71;
+    border-bottom: 5px solid #27ae60;
+    text-shadow: 0px -2px #27ae60;
+  }
+  
+  .yellow{
+    background-color: #f1c40f;
+    border-bottom: 5px solid #f39c12;
+    text-shadow: 0px -2px #f39c12;
+  }
+  
+  .action-button:active{
+    transform: translate(0px,5px);
+    border-bottom: 1px solid;
+  }
