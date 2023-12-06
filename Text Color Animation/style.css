@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Wendy+One');
+  
+  .container{
+	/* display: flex; */
+	height: 200px;
+	width: 320px;
+	height: 210px;
+	margin: 10px;
+	padding: 10px;
+	background: linear-gradient(
+             135deg, 
+	           #e6cfb6 0%, 
+			       #e4aee6 100%);
+  }
+
+  p {
+    text-align: center;
+    font-size: 100px;
+    font-family: 'Wendy One', sans-serif;
+    animation: color 3s infinite alternate;
+  }
+  
+  @keyframes color {
+    0% {
+      color: #ff5c46;
+    }
+    100% {
+      color: #38c500;
+    }
+  }
