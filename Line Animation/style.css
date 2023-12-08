@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Wendy+One');
+  
+  .container{
+	/* display: flex; */
+	height: 200px;
+	width: 320px;
+	height: 210px;
+	margin: 10px;
+	padding: 10px;
+	background: rgb(194, 65, 65)
+  }
+
+  .Close {
+    width: 120px;
+    height: 120px;
+    margin-left: 60px;
+    margin-top: 40px;
+    position: relative;
+    transform: rotate(90deg);
+  }
+  
+  .Close .top,
+  .Close .bot {
+    display: block;
+    background: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    animation-iteration-count: 1;
+  }
+  
+  .Close .top {
+    height: 100%;
+    width: 2px;
+    margin-left: -1px;
+    top: 0;
+  }
+  
+  .Close .bot {
+    width: 100%;
+    height: 2px;
+    transform: skewX(45deg);
+    left: 0;
+  }
+  
+  @keyframes top-out {
+    0% {
+      top: 0%;
+      height: 100%;
+    }
+    100% {
+      top: 200%;
+      height: 0%;
+    }
+  }
+  
+  @keyframes top-in {
+    0% {
+      top: -100%;
+      height: 0%;
+    }
+    100% {
+      top: 0%;
+      height: 100%;
+    }
+  }
+  
+  @keyframes bot-out {
+    0% {
+      left: 0%;
+      width: 100%;
+    }
+    100% {
+      left: 200%;
+      width: 0%;
+    }
+  }
+  
+  @keyframes bot-in {
+    0% {
+      left: -100%;
+      width: 0%;
+    }
+    100% {
+      left: 0%;
+      width: 100%;
+    }
+  }
+  
+  .Close:hover {
+    cursor: pointer;
+  }
+  
+  .Close:hover .top {
+    animation: top-out 0.25s forwards, 
+               top-in 0.25s forwards 0.25s;
+  }
+  
+  .Close:hover .bot {
+    animation: bot-out 0.25s forwards 0.1s, 
+              bot-in 0.25s forwards 0.35s;
+  }
