@@ -1,0 +1,62 @@
+  .container{
+	display: flex;
+	height: 200px;
+	width: 320px;
+	height: 210px;
+	margin: 10px;
+	padding: 10px;
+	background: #47e0e6
+  }
+
+  .btn-flip {
+    opacity: 1;
+    outline: 0;
+    color: #fff;
+    line-height: 40px;
+    position: relative;
+    text-align: center;
+    letter-spacing: 1px;
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    }
+  
+    .btn-flip:before {
+    top: 0;
+    left: 0;
+    color: #9999ff;
+    display: block;
+    padding: 0 30px;
+    line-height: 40px;
+    transition: 0.5s;
+    background: #921f7f;
+    content: attr(data-front);
+    transform: translateY(0) 
+               rotateX(0);
+    }
+    
+    .btn-flip:after {
+    top: 0;
+    left: 0;
+    width: 100%;
+    color: #9999ff;
+    transition: 0.5s;
+    position: absolute;
+    background: #853c00;
+    content: attr(data-back);
+    transform: translateY(-50%) 
+               rotateX(90deg);
+    }
+  
+    .btn-flip:hover:after {
+    opacity: 1;
+    transform: translateY(0) 
+               rotateX(0);
+    }
+    
+    .btn-flip:hover:before {
+    opacity: 0;
+    transform: translateY(50%) 
+               rotateX(90deg);
+    }
+  
