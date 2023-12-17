@@ -1,0 +1,50 @@
+.container{
+display: flex;
+height: 200px;
+width: 420px;
+height: 210px;
+margin: 10px;
+padding: 10px;
+background: #e0f2f3
+}
+
+.text {
+  font: normal 40px/50px Montserrat, sans-serif;
+  color: #999;
+}
+
+.text p {
+  float: left;
+}
+
+.text b {
+  float: left;
+  overflow: hidden;
+  height: 50px;
+  top: 40px;
+}
+
+.text .innerText {
+  color: #e74c3c;
+  position: relative;
+  animation: move 5s infinite;
+  animation-delay:1s;
+}
+
+@keyframes move{
+  0%  { 
+    top: 0px; 
+  }
+  20% { 
+    top: -50px; 
+  }
+  40% { 
+    top: -100px; 
+  }
+  60% { 
+    top: -150px; 
+  }
+  80% { 
+    top: -200px; 
+  }
+}
