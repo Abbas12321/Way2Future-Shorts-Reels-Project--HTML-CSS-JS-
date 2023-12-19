@@ -1,0 +1,38 @@
+.container{
+display: flex;
+height: 200px;
+
+width: 420px;
+height: 210px;
+margin: 10px;
+padding: 20px;
+background: #ffffff
+}
+
+#effect {
+  font-size: 130px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  transform: translate(0%, 0%);
+  color: #fff;
+}
+
+#effect::before, #effect::after {
+  content: 'TEXT';
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.8;
+} 
+
+#effect::after {
+  color: #f0f;
+  z-index: -2;
+  margin:3px
+} 
+
+#effect::before {
+  color: #0ff;
+  z-index: -1;
+  margin:-3px
+}
